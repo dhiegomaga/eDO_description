@@ -6,7 +6,7 @@
     default="True" />
   <param
     name="robot_description"
-    textfile="$(find edo_sim)/robots/edo_sim.urdf" />
+    textfile="$(find edo_description)/robots/edo_description.urdf" />
   <param
     name="use_gui"
     value="$(arg gui)" />
@@ -22,5 +22,5 @@
     name="rviz"
     pkg="rviz"
     type="rviz"
-    args="-d $(find edo_sim)/urdf.rviz" />
+    args="-d $(find edo_description)/urdf.rviz" />
 </launch>
